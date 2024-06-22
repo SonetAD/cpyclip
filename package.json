@@ -1,0 +1,41 @@
+{
+  "name": "cpyclip",
+  "version": "1.0.0",
+  "description": "Cpyclip: A powerful command-line tool to seamlessly copy the entire content of any specified file directly to your clipboard.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "cpyclip": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/SonetAD/cpyclip.git"
+  },
+  "keywords": [
+    "copy-to-clipboard",
+    "file-to-clipboard",
+    "file-content-copy",
+    "cli-tool",
+    "text-copy",
+    "content-copy",
+    "developer-tools",
+    "clipboard-manager",
+    "cpyclip"
+  ],
+  "author": "Sonet Adhikary",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SonetAD/cpyclip/issues"
+  },
+  "homepage": "https://github.com/SonetAD/cpyclip#readme",
+  "dependencies": {
+    "clipboardy": "^4.0.0",
+    "fs-extra": "^11.2.0",
+    "minimist": "^1.2.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.7"
+  }
+}
