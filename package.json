@@ -1,6 +1,6 @@
 {
   "name": "cpyclip",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Cpyclip: A powerful command-line tool to seamlessly copy the entire content of any specified file directly to your clipboard.",
   "main": "index.js",
   "scripts": {
