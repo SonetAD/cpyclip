@@ -3,6 +3,7 @@
   const minimist = require('minimist');
   const cpyClip = require('./cpyclip');
   const chalk = (await import('chalk')).default;
+  const pkg = require('./package.json');
 
   const args = minimist(process.argv.slice(2));
 
@@ -11,6 +12,10 @@
     process.exit();
   }
 
+  if (args.version || args.v) {
+    console.log(`v${pkg.version}`);
+    process.exit();
+  }
   if (!args._[0]) {
     console.error(chalk.red('Error: Please provide a file path.'));
     process.exit(1);
